@@ -1,10 +1,11 @@
+export const PATHS = {
+    features: '/features',
+    customer_stories: '/customer-stories',
+    prices: '/prices',
+    contact: '/contact',
+};
+
 export default function NavBar({ url }: { url: string }) {
-    const PATHS = {
-        features: '/features',
-        customer_stories: '/customer-stories',
-        prices: '/prices',
-        contact: '/contact',
-    };
     return (
         <div className="flex justify-between p-12 bg-light_primary text-md">
             <div>

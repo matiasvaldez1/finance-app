@@ -1,3 +1,4 @@
+import { PATHS } from './NavBar';
 
 export default function Footer() {
     return (
@@ -15,15 +16,25 @@ export default function Footer() {
             <div className="grid grid-cols-3 place-content-center">
                 <div className="text-secondary space-y-6 text-lg">
                     <h2 className="first:text-white">Product</h2>
-                    <h2>Features</h2>
-                    <h2>Pricing</h2>
-                    <h2>Sign up</h2>
+                    <h2>
+                        <a href={PATHS.features}>Features</a>
+                    </h2>
+                    <h2>
+                        <a href={PATHS.prices}>Pricing</a>
+                    </h2>
+                    <h2>
+                        <a href={PATHS.contact}>Contact</a>
+                    </h2>
                 </div>
                 <div className="text-secondary space-y-6 text-lg">
                     <h2 className="first:text-white">Company</h2>
-                    <h2>Customer Stories</h2>
+                    <h2>
+                        <a href={PATHS.customer_stories}>Customer Stories</a>
+                    </h2>
                     <h2>About</h2>
-                    <h2>Contact</h2>
+                    <h2>
+                        <a href={PATHS.contact}>Contact</a>
+                    </h2>
                 </div>
                 <div className="text-secondary space-y-6 text-lg">
                     <h2 className="first:text-white">Resources</h2>
