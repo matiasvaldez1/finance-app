@@ -1,4 +1,4 @@
-import maleSmiling from '../../assets/male-smiling.png';
+import maleSmiling from '../../public/assets/male-smiling.png';
 
 function BusinessSection() {
     return (
