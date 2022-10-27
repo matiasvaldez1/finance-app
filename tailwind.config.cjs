@@ -12,6 +12,9 @@ module.exports = {
 				primary_black: "#080c16",
 				primary_white: "#fcfcfc"
 			  },
+			  backgroundImage: {
+				'hero': "url('/public/assets/hero-img.png')",
+			  }
 		},
 	},
 	plugins: [],

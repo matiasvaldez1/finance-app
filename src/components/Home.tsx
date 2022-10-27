@@ -91,7 +91,7 @@ function QuoteSection() {
 function FreeTrialSection() {
     return (
         <section>
-            <div className='grid grid-cols-2 bg-[url("../../public/assets/hero-img.png")] py-16 lg:py-40 bg-gradient-green bg-cover bg-no-repeat bg-center text-white'>
+            <div className='grid grid-cols-2 bg-hero py-16 lg:py-40 bg-gradient-green bg-cover bg-no-repeat bg-center text-white'>
                 <div className="space-y-4 mx-12">
                     <h3 className="text-5xl">Pulse is specifically designed for small businesses.</h3>
                     <p className="text-xl">
